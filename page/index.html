@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSBB_AdminWindow</title>
+
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<div class="titlebar"> </div>
+ <span onclick="closeWindow()" class="closeButton" > &times; </span>
+
+<div id="myDIV" class="header">
+  <h2 class ="agentListText">Debug window</h2>
+
+  <span onclick="onAddAgent()" class="addBtn">Add</span>
+  <span onclick="onConnect()" class="addBtn">Connect</span>
+</div>
+
+<ul id="agentList">
+
+
+</ul>
+
+<canvas id="canvas"></canvas>
+
+
+<script src="index.js"></script>
+</body>
+</html>

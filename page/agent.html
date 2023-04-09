@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSBB_AgentWindow</title>
+    <link href="agent.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<div class="titlebar"> </div>
+ <span onclick="closeWindow()" class="closeButton" > &times; </span>
+
+
+<!--
+<div class="tab">
+   <button class="tablinks" id="main" onclick="openMain(event)">Main</button>
+  <button class="tablinks" id="segment" onclick="onClickMenu(event)">Segment</button>
+  <button class="tablinks" id="block" onclick="onClickMenu(event)">Block</button>
+  <button class="tablinks" id="upload" onclick="onClickMenu(event)">Upload</button>
+</div>-->
+<!-- <div id="main" class="tabcontent">
+  <h3>main</h3> -->
+  <div class = "wallet" id ="wallet">
+    <div id ="frame" >
+        <div id = "coin"> 0c </div>
+        <div id ="address"> - </div>
+        <hr id = "line" />
+        <div id ="send" > Send </div> <input id ="input_coin" placeholder="보낼 코인의 양" /> <div id ="send"> to </div> <input id ="input_coin" placeholder="받는 지갑 주소" />
+        <div id="confirm"> Submit </div>
+    </div>
+  </div>
+
+  <div class = "server" id ="server">
+    <div id ="frame" >
+
+        <div id = "peer"> 0 </div>
+        <div id = "address"> - </div>
+    </div>
+  </div>
+
+  <div class = "blocks" id ="blocks">
+    <div id ="frame" >
+
+        <div id = "length"> 0 </div>
+        <div id = "list">
+
+        </div>
+    </div>
+  </div>
+
+<!-- </div> -->
+
+<!-- <div id="segment" class="tabcontent">
+  <h3>segment</h3>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="block" class="tabcontent">
+  <h3>block</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="upload" class="tabcontent">
+  <h3>upload</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div class ="segmentsInfo">
+	<h2 class ="segmentsListText"> </h2>
+	<ul id="segmentsList">
+
+
+	</ul>
+</div> -->
+
+
+ <!-- <input id="test" type="file" onchange='onSelectFile(event)' /> -->
+
+
+<script src="agent.js"></script>
+</body>
+</html>
